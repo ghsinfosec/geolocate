@@ -4,6 +4,18 @@ This tool uses a public API to query geolocation data and identify the origin of
 ## Requirements
 Python3
 
+## Installation
+```bash
+git clone https://github.com/ghsinfosec/geolocate.git
+```
+
+You can add a symbolic link to run it from anywhere by typing:
+
+```bash
+sudo ln -s $(pwd)/geolocate.py /usr/local/bin/geolocate
+```
+
+
 ## Usage
 
 To query for a single IP
