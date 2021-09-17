@@ -1,4 +1,9 @@
 # geolocate
+This tool uses a public API to query geolocation data and identify the origin of an IP address from the terminal. You can specify a single IP address or a text file with multiple IP addresses.
+
+## Requirements
+Python3
+
 ## Usage
 
 To query for a single IP
