@@ -20,12 +20,12 @@ sudo ln -s $(pwd)/geolocate.py /usr/local/bin/geolocate
 
 To query for a single IP
 ```bash
-python3 geolocate.py -i x.x.x.x
+geolocate -i x.x.x.x
 ```
 
 To query a list of IP's (one IP per line)
 ```bash
-python3 geolocate.py -f <filename>
+geolocate -f <filename>
 ```
 
 The IP list file would look like:
@@ -39,7 +39,7 @@ z.z.z.z
 To geolocate a sinle IP address:
 
 ```bash
-python3 geolocate.py -i 1.188.206.54
+geolocate -i 1.188.206.54
 
 ip_address    country    regionName    city        lat      lon  isp                                         org    as
 ------------  ---------  ------------  ------  -------  -------  ------------------------------------------  -----  -------------------------------------
@@ -48,7 +48,7 @@ ip_address    country    regionName    city        lat      lon  isp            
 
 To geolocate a list of IP addresses
 ```bash
-python3 geolocate.py -f /opt/ip-list.txt
+geolocate -f /opt/ip-list.txt
 
 ip_address       country         regionName              city            lat       lon  isp                                          org                                          as
 ---------------  --------------  ----------------------  ----------  -------  --------  -------------------------------------------  -------------------------------------------  ---------------------------------------------------
